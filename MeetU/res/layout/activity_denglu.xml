@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".Denglu" >
+    <RelativeLayout
+        android:id="@+id/rl_top_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_left_top_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_right_top_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_center_top_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="登录" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_top_denglu" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="30dp"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center2_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_center_denglu"
+        android:padding="30dp" >
+
+        <TextView
+            android:id="@+id/tv_one_center2_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"        
+            android:text="忘记密码" />
+        <EditText 
+            android:id="@+id/et_phone_center2_denglu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="手机"/>
+       <EditText 
+            android:id="@+id/et_password_center2_denglu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@id/et_phone_center2_denglu"
+            android:hint="密码"/>
+
+       <TextView
+           android:id="@+id/tv__center2_denglu"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/et_password_center2_denglu"
+           android:layout_below="@+id/et_password_center2_denglu"
+           android:textSize="10dp"
+           android:text="——注册或登录表示同意" />
+
+		<EditText
+		    android:id="@+id/et_yonghuxieyi_center2_denglu"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/tv__center2_denglu"
+		    android:layout_alignBottom="@+id/tv__center2_denglu"
+		    android:layout_toRightOf="@+id/tv__center2_denglu"
+		    android:textSize="10dp"
+		    android:text="用户协议" >
+
+		    <requestFocus />
+		</EditText>
+
+		<TextView		   
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/et_password_center2_denglu"
+		    android:layout_toRightOf="@+id/et_yonghuxieyi_center2_denglu"
+		    android:textSize="10dp"
+		    android:text="——————" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_center2_denglu" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="【我想认识你】团队出品" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

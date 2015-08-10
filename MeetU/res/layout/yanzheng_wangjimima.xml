@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yanzheng_wangjimima" >
+
+    <RelativeLayout
+        android:id="@+id/rl_top_yanzheng_wangjimima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_left_top_yanzheng_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_right_top_yanzheng_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_center_top_yanzheng_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="忘记密码" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center_yanzheng_wangjimima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_top_yanzheng_wangjimima" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="30dp"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_center_yanzheng_wangjimima" >
+
+        <TextView
+            android:id="@+id/tv_centerleft_yanzheng_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="47dp"
+            android:text="已发送验证码到(+86)" />
+
+        <TextView
+            android:id="@+id/tv_centerright_yanzheng_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_centerleft_yanzheng_wangjimima"
+            android:text="12345678910" />
+         <EditText
+        android:id="@+id/et_one_yanzheng_wangji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginLeft="50dp"
+         android:layout_below="@id/tv_centerleft_yanzheng_wangjimima" 
+        android:text="1"
+        android:inputType="number" >
+
+      
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_two_yanzheng_wangji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_one_yanzheng_wangji"
+        android:layout_alignBottom="@+id/et_one_yanzheng_wangji"
+        android:layout_toRightOf="@+id/et_one_yanzheng_wangji" 
+        
+        android:inputType="number"
+        android:text="2" />
+
+    <EditText
+        android:id="@+id/et_two_three_wangji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_two_yanzheng_wangji"
+        android:layout_alignBottom="@+id/et_two_yanzheng_wangji"
+        android:layout_toRightOf="@+id/et_two_yanzheng_wangji"
+        android:text="3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_four_yanzheng_wangji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_two_three_wangji"
+        android:layout_alignBottom="@+id/et_two_three_wangji"
+        android:layout_toRightOf="@+id/et_two_three_wangji"
+        
+        android:inputType="number"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_one_yanzheng_wangji"
+        android:text="重新发送（40s）" />
+    </RelativeLayout>
+
+   
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        
+        android:layout_below="@+id/rl_center2_wangjimima" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="【我想认识你】团队出品" />
+
+    </RelativeLayout>
+</RelativeLayout>
