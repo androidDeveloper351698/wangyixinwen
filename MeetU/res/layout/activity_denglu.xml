@@ -72,14 +72,18 @@
             android:id="@+id/et_phone_center2_denglu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="手机"/>
+            
+            android:background="@drawable/dialog_bg"
+            android:hint="手机"
+            android:inputType="phone"/>
        <EditText 
             android:id="@+id/et_password_center2_denglu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+           
             android:layout_below="@id/et_phone_center2_denglu"
+            android:background="@drawable/dialog_bg"
+            android:inputType="textPassword"
             android:hint="密码"/>
 
        <TextView
