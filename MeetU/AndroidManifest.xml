@@ -8,6 +8,12 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -16,6 +22,14 @@
         <activity
             android:name="com.meetu.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.meetu.activity.Denglu"
+            android:label="@string/title_activity_denglu" >
+        </activity>
+        <activity
+            android:name="com.meetu.activity.Shezhigerenxinxi"
+            android:label="@string/title_activity_shezhigerenxinxi" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +37,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.meetu.activity.Denglu"
-            android:label="@string/title_activity_denglu" >
+            android:name="com.meetu.WangjimimaActivity"
+            android:label="@string/title_activity_wangjimima" >
         </activity>
     </application>
 

@@ -72,22 +72,25 @@
             android:id="@+id/et_phone_center2_wangjimima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="phone"
+            android:background="@drawable/dialog_bg"
             android:hint="手机"/>
        <EditText 
             android:id="@+id/et_password_center2_wangjimima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:layout_below="@id/et_phone_center2_wangjimima"
+            android:background="@drawable/dialog_bg"
             android:hint="新密码"/>
        
        <EditText 
             android:id="@+id/et_querenpassword_center2_wangjimima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:layout_below="@id/et_password_center2_wangjimima"
+            android:background="@drawable/dialog_bg"
             android:hint="确认密码"/>
 
        <TextView

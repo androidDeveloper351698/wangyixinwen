@@ -60,29 +60,30 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/rl_center_denglu"
         android:padding="30dp" >
-
         <TextView
-            android:id="@+id/tv_one_center2_denglu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"        
-            android:text="忘记密码" />
+		    android:id="@+id/tv_one_center2_denglu"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignRight="@+id/et_phone_center2_denglu"
+		   
+		    android:text="忘记密码" />
+
         <EditText 
             android:id="@+id/et_phone_center2_denglu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            
-            android:background="@drawable/dialog_bg"
+            android:layout_height="wrap_content"            
+            android:background="@drawable/shurukuang_denglu_bg"
             android:hint="手机"
+            android:layout_below="@id/tv_one_center2_denglu"
             android:inputType="phone"/>
        <EditText 
             android:id="@+id/et_password_center2_denglu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-           
+          
             android:layout_below="@id/et_phone_center2_denglu"
-            android:background="@drawable/dialog_bg"
+            android:background="@drawable/shurukuang_denglu_bg"
             android:inputType="textPassword"
             android:hint="密码"/>
 
@@ -115,6 +116,8 @@
 		    android:layout_toRightOf="@+id/et_yonghuxieyi_center2_denglu"
 		    android:textSize="10dp"
 		    android:text="——————" />
+
+		
 
     </RelativeLayout>
 

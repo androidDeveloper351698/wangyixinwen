@@ -1,0 +1,132 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".shezhigerenxinxi" >
+    <RelativeLayout
+        android:id="@+id/rl_top_shezhigerenxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_left_top_shezhigerenxinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_right_top_shezhigerenxinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_center_top_shezhigerenxinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置个人信息" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center_shezhigerenxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_top_shezhigerenxinxi" >
+
+        <ImageView
+            android:id="@+id/iv_touxiang_shezhigerenxinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="30dp"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+    <LinearLayout android:id="@+id/ll_name_zhezhigerenxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/rl_center_shezhigerenxinxi"
+         android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+      
+		    <EditText
+		        android:id="@+id/et_name_shezhigerenxinxi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/rl_center_shezhigerenxinxi"
+		        android:layout_centerHorizontal="true"
+		        android:ems="10"
+		        android:background="@drawable/dialog_bg"
+		        
+		        android:hint="昵称"
+		        android:inputType="textPersonName" />
+	
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_sex_zhezhigerenxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/ll_name_zhezhigerenxinxi"
+         android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+		    <EditText
+		        android:id="@+id/et_sex_shezhigerenxinxi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/rl_center_shezhigerenxinxi"
+		        android:layout_centerHorizontal="true"
+		        android:ems="5"
+		        android:background="@drawable/dialog_bg"
+		        android:focusableInTouchMode="false"
+		        android:hint="性别"
+		        android:inputType="textPersonName" />
+	
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_brithday_zhezhigerenxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/ll_sex_zhezhigerenxinxi"
+         android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+		    <EditText
+		        android:id="@+id/et_birthday_shezhigerenxinxi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/rl_center_shezhigerenxinxi"
+		        android:layout_centerHorizontal="true"
+		        android:ems="8"
+		        android:background="@drawable/dialog_bg"
+		        
+		        android:hint="出生日期"
+		        android:inputType="textPersonName" />
+
+        </LinearLayout>
+   
+
+
+    
+
+</RelativeLayout>

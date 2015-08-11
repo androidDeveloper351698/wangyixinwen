@@ -75,10 +75,11 @@
             android:text="12345678910" />
          <EditText
         android:id="@+id/et_one_yanzheng_wangji"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignParentLeft="true" 
         android:layout_marginLeft="50dp"
+        android:background="@drawable/shurukuang_denglu_bg"
          android:layout_below="@id/tv_centerleft_yanzheng_wangjimima" 
         android:text="1"
         android:inputType="number" >
@@ -88,33 +89,34 @@
 
     <EditText
         android:id="@+id/et_two_yanzheng_wangji"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignBaseline="@+id/et_one_yanzheng_wangji"
         android:layout_alignBottom="@+id/et_one_yanzheng_wangji"
         android:layout_toRightOf="@+id/et_one_yanzheng_wangji" 
-        
+        android:background="@drawable/shurukuang_denglu_bg"
         android:inputType="number"
         android:text="2" />
 
     <EditText
         android:id="@+id/et_two_three_wangji"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignBaseline="@+id/et_two_yanzheng_wangji"
         android:layout_alignBottom="@+id/et_two_yanzheng_wangji"
         android:layout_toRightOf="@+id/et_two_yanzheng_wangji"
+        android:background="@drawable/shurukuang_denglu_bg"
         android:text="3"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/et_four_yanzheng_wangji"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignBaseline="@+id/et_two_three_wangji"
         android:layout_alignBottom="@+id/et_two_three_wangji"
         android:layout_toRightOf="@+id/et_two_three_wangji"
-        
+        android:background="@drawable/shurukuang_denglu_bg"
         android:inputType="number"
         android:text="4" />
 
